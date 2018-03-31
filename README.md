@@ -14,5 +14,7 @@ The commands that you can run in LIRI and what they do are as follows:
 
 Remember, every output will be added to the log.txt file for you future reference.
 
+[Watch the demo](lire-node-app_demo.mov)
+
 ## How to get started
 This app uses node.js and npm. In your console type `npm install` to aquire the required node libraries to run this app. You will also need to add your own .env file with your personal keys for twitter and spotify in order to utilize their apis and utilize the `my-tweets` and `spotify-this-song` commands.
