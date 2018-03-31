@@ -4,15 +4,15 @@ LIRI is a command line node app that takes in parameters and gives you back data
 
 The commands that you can run in LIRI and what they do are as follows:
 
-'my-tweets' - This will display the last 20 tweets by the user SuiteMule.
+`my-tweets` - This will display the last 20 tweets by the user SuiteMule.
 
-'spotify-this-song <song name here>' - This will display information about the first returned search result of the song you inputted. If you leave the search parameter blank it will search for the default song.
+`spotify-this-song <song name here>` - This will display information about the first returned search result of the song you inputted. If you leave the search parameter blank it will search for the default song.
 
-'movie-this <movie name here>' - This will display information about the movie you searched for. If you leave the search parameter blank it will search for the default movie.
+`movie-this <movie name here>` - This will display information about the movie you searched for. If you leave the search parameter blank it will search for the default movie.
 
-do-what-it-says - This will run the command that has been written in the random.txt document.
+`do-what-it-says` - This will run the command that has been written in the random.txt document.
 
 Remember, every output will be added to the log.txt file for you future reference.
 
 ## How to get started
-This app uses node.js and npm. In your console type 'npm install' to aquire the required node libraries to run this app. You will also need to add your own .env file with your personal keys for twitter and spotify in order to utilize their apis and utilize the 'my-tweets' and 'spotify-this-song' commands.
+This app uses node.js and npm. In your console type `npm install` to aquire the required node libraries to run this app. You will also need to add your own .env file with your personal keys for twitter and spotify in order to utilize their apis and utilize the `my-tweets` and `spotify-this-song` commands.
